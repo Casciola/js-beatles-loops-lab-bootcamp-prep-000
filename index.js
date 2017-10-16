@@ -21,7 +21,7 @@ function iLoveTheBeatles(number) {
   var blank = [];
   do {
     blank.push('I love the Beatles');
-  } while(number < 15);
+  } while(`$number` < 15);
 
   return blank;
 
